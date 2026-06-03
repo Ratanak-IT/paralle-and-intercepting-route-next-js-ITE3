@@ -2,7 +2,7 @@ import ProductDetailComponent from "@/components/product/ProductDetailComponent"
 
 async function getProductById(id: string) {
   const response = await fetch(
-    `http://localhost:3000/api/product/${id}`,
+    `https://metadata-blond-six.vercel.app/api/product/${id}`,
     { cache: "no-store" }
   );
 
