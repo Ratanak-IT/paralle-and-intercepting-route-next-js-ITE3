@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/'],
       },
     ],
-    sitemap: 'http://localhost:3000/sitemap.xml',
+    sitemap: 'https://metadata-blond-six.vercel.app/sitemap.xml',
   }
 }
