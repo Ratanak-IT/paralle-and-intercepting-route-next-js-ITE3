@@ -32,7 +32,7 @@ export function Page({ params, searchParams }: Props) {}
 
 async function getProduct(id: string) {
   const response = await fetch(
-    `http://localhost:3000/api/product/${id}`,
+    `https://metadata-blond-six.vercel.app/api/product/${id}`,
     { cache: "no-store" }
   );
 
